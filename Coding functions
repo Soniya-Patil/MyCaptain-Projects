@@ -1,0 +1,29 @@
+#Assigning elements to different lists
+list1 = [10,20,40,50,70,80]
+list2 = ['apple', 'mango', 'banana']
+list3 = [3, 'Python', 'Java', 7]
+print(list1)
+list1.append(100)
+print(list1)
+print(list2)
+list2.append('grapes')
+print(list2)
+print(list3)
+list3.insert(2,'C++')
+print(list3)
+
+#Accessing elements from a tuple
+tuple1 = ('p','r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
+print(tuple1)
+print(len(tuple1))
+print(tuple1[2])
+print(tuple1[-3])
+print(tuple1[:7])
+
+#Deleting different dictionary elements
+dict1 = {'a' : 1, 'b' : 2, 'c' : 3, 'd' : 4}
+print(dict1)
+del dict1['a']
+print(dict1)
+dict1.pop('d')
+print(dict1)
